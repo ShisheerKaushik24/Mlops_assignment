@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shisheerskaushik/Code/IIT/Ml-ops-iitj/Mlops_assignment/Assignment/exe_3/mlruns/647002397836132312/2232ab39b6874251b958b9ded75ae3c3/artifacts
+end_time: 1727692459990
+entry_point_name: ''
+experiment_id: '647002397836132312'
+lifecycle_stage: active
+run_id: 2232ab39b6874251b958b9ded75ae3c3
+run_name: blushing-turtle-281
+run_uuid: 2232ab39b6874251b958b9ded75ae3c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727692458687
+status: 3
+tags: []
+user_id: shisheerskaushik
