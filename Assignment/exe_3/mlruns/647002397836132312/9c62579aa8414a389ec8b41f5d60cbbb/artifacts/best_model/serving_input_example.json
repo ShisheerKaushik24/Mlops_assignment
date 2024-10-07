@@ -1,0 +1,48 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "age",
+      "sibsp",
+      "parch",
+      "family_size",
+      "sex_male",
+      "class_Second",
+      "class_Third",
+      "adult_male_True",
+      "deck_B",
+      "deck_C",
+      "deck_D",
+      "deck_E",
+      "deck_F",
+      "deck_G",
+      "deck_Unknown",
+      "embark_town_Queenstown",
+      "embark_town_Southampton",
+      "pclass_2",
+      "pclass_3"
+    ],
+    "data": [
+      [
+        -0.4262695234383863,
+        -0.5305986490832921,
+        -0.49715690120713385,
+        -0.6190340614322898,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        false
+      ]
+    ]
+  }
+}

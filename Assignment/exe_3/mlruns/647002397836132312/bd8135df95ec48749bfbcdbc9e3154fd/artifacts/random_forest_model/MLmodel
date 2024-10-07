@@ -1,0 +1,42 @@
+artifact_path: random_forest_model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.2
+mlflow_version: 2.16.2
+model_size_bytes: 4145479
+model_uuid: 0915015d01ad4860aa0c4982710ca1a0
+run_id: bd8135df95ec48749bfbcdbc9e3154fd
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "age", "required": true}, {"type": "double",
+    "name": "sibsp", "required": true}, {"type": "double", "name": "parch", "required":
+    true}, {"type": "double", "name": "family_size", "required": true}, {"type": "boolean",
+    "name": "sex_male", "required": true}, {"type": "boolean", "name": "class_Second",
+    "required": true}, {"type": "boolean", "name": "class_Third", "required": true},
+    {"type": "boolean", "name": "adult_male_True", "required": true}, {"type": "boolean",
+    "name": "deck_B", "required": true}, {"type": "boolean", "name": "deck_C", "required":
+    true}, {"type": "boolean", "name": "deck_D", "required": true}, {"type": "boolean",
+    "name": "deck_E", "required": true}, {"type": "boolean", "name": "deck_F", "required":
+    true}, {"type": "boolean", "name": "deck_G", "required": true}, {"type": "boolean",
+    "name": "deck_Unknown", "required": true}, {"type": "boolean", "name": "embark_town_Queenstown",
+    "required": true}, {"type": "boolean", "name": "embark_town_Southampton", "required":
+    true}, {"type": "boolean", "name": "pclass_2", "required": true}, {"type": "boolean",
+    "name": "pclass_3", "required": true}]'
+  outputs: '[{"type": "double", "required": true}]'
+  params: null
+utc_time_created: '2024-09-30 10:34:20.079263'

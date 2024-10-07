@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shisheerskaushik/Code/IIT/Ml-ops-iitj/Mlops_assignment/Assignment/exe_3/mlruns/647002397836132312/9c62579aa8414a389ec8b41f5d60cbbb/artifacts
+end_time: 1727692461881
+entry_point_name: ''
+experiment_id: '647002397836132312'
+lifecycle_stage: active
+run_id: 9c62579aa8414a389ec8b41f5d60cbbb
+run_name: sincere-elk-109
+run_uuid: 9c62579aa8414a389ec8b41f5d60cbbb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727692460992
+status: 3
+tags: []
+user_id: shisheerskaushik
