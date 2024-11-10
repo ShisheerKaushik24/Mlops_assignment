@@ -102,8 +102,7 @@ Each assignment is documented with skills and tools developed to provide a compr
    - **Objective**: Build an advanced end-to-end machine learning project, applying all techniques and tools learned throughout the course.
    - **Suggested Project Ideas**:  
      - Predictive Maintenance with Sensor Data
-     - Customer Churn Prediction and Analysis
-     - Fraud Detection using Anomaly Detection Techniques
+     - Customer Iris Data Prediction and Analysis
      - Recommendation System using Collaborative Filtering  
    - **Skills Developed**: Project structuring, end-to-end model development, workflow integration, deployment-ready model.
 
