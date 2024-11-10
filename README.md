@@ -19,7 +19,27 @@ Each assignment is documented with skills and tools developed to provide a compr
 - [Tools and Skills Summary](#tools-and-skills-summary)
 
 ---
+## Repository Structure
 
+```
+📂 ML-DL-MLOps-Coursework
+├── 📂 assignments
+│   ├── 📄 Assignment1
+│   ├── 📄 Assignment2
+│   ├── 📄 Assignment3
+│   ├── 📄 Assignment4
+│   ├── 📄 Assignment5
+│   ├── 📄 Assignment6
+│   ├── 📄 Assignment7
+│   ├── 📄 Assignment8
+├── 📂 Project
+│   ├── 📄 src
+│   ├── 📄 deployments
+│   ├── 📄 README.md
+│   ├── ...
+└── README.md
+```
+---
 ### Setup and Environment Configuration
 
 1. **Linux Environment Setup**  
@@ -119,26 +139,3 @@ Throughout this coursework, we developed proficiency in the following tools and 
 - **Quantization Techniques**: Dynamic and low-precision quantization
 - **Experimentation and Tracking**: MLflow & ZenML for metadata and experiment tracking
 - **Deployment Skills**: Docker containerization, SSH setup, cloud environment preparation
-
----
-
-## Repository Structure
-
-```
-📂 ML-DL-MLOps-Coursework
-├── 📂 assignments
-│   ├── 📄 Assignment1
-│   ├── 📄 Assignment2
-│   ├── 📄 Assignment3
-│   ├── 📄 Assignment4
-│   ├── 📄 Assignment5
-│   ├── 📄 Assignment6
-│   ├── 📄 Assignment7
-│   ├── 📄 Assignment8
-├── 📂 Project
-│   ├── 📄 src
-│   ├── 📄 deployments
-│   ├── 📄 README.md
-│   ├── ...
-└── README.md
-```
