@@ -114,10 +114,10 @@ Throughout this coursework, we developed proficiency in the following tools and 
 
 - **Programming Languages**: Python, Bash scripting
 - **Development Tools**: Git, GitHub, GitLab, Docker, Vim, Conda
-- **MLOps Tools**: MLflow, GitHub Actions, Docker for CI/CD
+- **MLOps Tools**: MLflow, ZenML GitHub Actions, Docker for CI/CD
 - **Machine Learning Frameworks**: PyTorch
 - **Quantization Techniques**: Dynamic and low-precision quantization
-- **Experimentation and Tracking**: MLflow for metadata and experiment tracking
+- **Experimentation and Tracking**: MLflow & ZenML for metadata and experiment tracking
 - **Deployment Skills**: Docker containerization, SSH setup, cloud environment preparation
 
 ---
