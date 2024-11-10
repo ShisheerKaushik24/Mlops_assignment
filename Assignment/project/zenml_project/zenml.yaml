@@ -1,0 +1,29 @@
+# zenml.yaml
+version: 0.5
+zen_store:
+  type: zenml.io.ZenStore
+  url: sqlite:///zenml_metadata.db  # Local SQLite database for storing metadata
+  authentication: {}
+
+# Artifact Store
+artifact_store:
+  type: zenml.io.ArtifactStore
+  path: ./artifacts  # Store artifacts locally in the artifacts directory
+
+# Orchestrator
+orchestrator:
+  type: zenml.orchestrators.local.LocalOrchestrator  # Use local orchestrator for local testing
+  logs: ./logs  # Logs for each step
+
+# Experiment Tracker
+experiment_tracker:
+  type: zenml.integrations.mlflow.MLFlowExperimentTracker
+  mlflow_tracking_uri: http://127.0.0.1:5000  # Local MLflow server URI
+  experiment_name: "Customer Churn Prediction Experiment"  # Set experiment name for MLflow tracking
+
+# Deployment configurations
+deployment:
+  container:
+    image: churn-prediction-image:latest  # Docker image for deployment
+    ports:
+      - 8501  # Streamlit app port
