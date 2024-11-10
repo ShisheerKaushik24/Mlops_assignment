@@ -136,9 +136,9 @@ Throughout this coursework, we developed proficiency in the following tools and 
 │   ├── 📄 Assignment7
 │   ├── 📄 Assignment8
 ├── 📂 Project
-│   ├── 📄 Feature_Engineering.md
-│   ├── 📄 EDA_LinearRegression.md
-│   ├── 📄 Docker_Tutorial.md
+│   ├── 📄 src
+│   ├── 📄 deployments
+│   ├── 📄 README.md
 │   ├── ...
 └── README.md
 ```
