@@ -1,28 +1,23 @@
 name: MLOps Pipeline
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+on: [push]
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-
+    - uses: actions/checkout@v2
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.9'
-
+        python-version: '3.8'
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
         pip install -r requirements.txt
-
-    - name: Run training script
-      run: python src/train_model.py
+    - name: Run ZenML pipeline
+      run: |
+        zenml pipeline run churn_prediction_pipeline
+    - name: Dockerize and Deploy
+      run: |
+        docker build -t churn-app .
+        docker run -p 8501:8501 churn-app
