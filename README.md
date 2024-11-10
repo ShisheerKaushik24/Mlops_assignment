@@ -128,16 +128,18 @@ Throughout this coursework, we developed proficiency in the following tools and 
 ```
 📂 ML-DL-MLOps-Coursework
 ├── 📂 assignments
-│   ├── 📄 Assignment1_LinuxSetup.md
-│   ├── 📄 Assignment2_SSH_CondaSetup.md
-│   ├── 📄 Assignment3_Git_Repo_Management.md
-│   ├── ...
-├── 📂 classwork
+│   ├── 📄 Assignment1
+│   ├── 📄 Assignment2
+│   ├── 📄 Assignment3
+│   ├── 📄 Assignment4
+│   ├── 📄 Assignment5
+│   ├── 📄 Assignment6
+│   ├── 📄 Assignment7
+│   ├── 📄 Assignment8
+├── 📂 Project
 │   ├── 📄 Feature_Engineering.md
 │   ├── 📄 EDA_LinearRegression.md
 │   ├── 📄 Docker_Tutorial.md
 │   ├── ...
 └── README.md
 ```
-
----
