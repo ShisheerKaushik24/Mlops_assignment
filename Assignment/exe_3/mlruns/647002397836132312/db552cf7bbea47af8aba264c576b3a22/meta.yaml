@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shisheerskaushik/Code/IIT/Ml-ops-iitj/Mlops_assignment/Assignment/exe_3/mlruns/647002397836132312/db552cf7bbea47af8aba264c576b3a22/artifacts
+end_time: 1729859819979
+entry_point_name: ''
+experiment_id: '647002397836132312'
+lifecycle_stage: active
+run_id: db552cf7bbea47af8aba264c576b3a22
+run_name: bouncy-fawn-979
+run_uuid: db552cf7bbea47af8aba264c576b3a22
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729859818987
+status: 3
+tags: []
+user_id: shisheerskaushik
