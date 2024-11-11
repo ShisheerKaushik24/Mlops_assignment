@@ -14,12 +14,14 @@ pip install -r requirements.txt
 ```
 ## Usage
 
-    1. **For Quantized Classification**:
+1. For Quantized Classification:
+    
     ```bash
     python quantized_classification.py
     ```
 
-    2. **For Quantized SGD Classifier**:
+2. For Quantized SGD Classifier:
+    
     ```bash
     python quantized_sgd_classifier.py
     ```
