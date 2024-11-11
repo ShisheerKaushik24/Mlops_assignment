@@ -37,6 +37,11 @@ Each assignment is documented with skills and tools developed to provide a compr
 │   ├── 📄 deployments
 │   ├── 📄 README.md
 │   ├── ...
+├── 📂 Resources
+│   ├── 📄 notebook
+│   ├── 📄 lecture notes
+│   ├── 📄 references
+│   ├── ...
 └── README.md
 ```
 ---
