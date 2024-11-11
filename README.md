@@ -1,7 +1,7 @@
-# Machine Learning & Deep Learning MLOps Coursework
+# Machine Learning & Deep Learning Coursework
 
 ## Overview
-Welcome to the Machine Learning and Deep Learning MLOps coursework repository! This repository contains a series of assignments, labs, and projects developed as part of an MLOps-focused course. Throughout this coursework, we dive into various MLOps practices, tools, and techniques, from environment setup and version control to advanced model deployment and quantization.
+Welcome to the Machine Learning and Deep Learning coursework repository! This repository contains a series of assignments, labs, and projects developed as part of an MLOps-focused course. Throughout this coursework, we dive into various MLOps practices, tools, and techniques, from environment setup and version control to advanced model deployment and quantization.
 
 Each assignment is documented with skills and tools developed to provide a comprehensive understanding of the course progression and deliverables.
 
