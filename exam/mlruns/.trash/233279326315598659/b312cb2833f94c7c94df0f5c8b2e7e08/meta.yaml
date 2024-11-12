@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shisheerskaushik/Code/IIT/Ml-ops-iitj/Mlops_assignment/exam/mlruns/233279326315598659/b312cb2833f94c7c94df0f5c8b2e7e08/artifacts
+deleted_time: 1731396404150
+end_time: 1731396101770
+entry_point_name: ''
+experiment_id: '233279326315598659'
+lifecycle_stage: deleted
+run_id: b312cb2833f94c7c94df0f5c8b2e7e08
+run_name: Logistic Regression
+run_uuid: b312cb2833f94c7c94df0f5c8b2e7e08
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731396101740
+status: 3
+tags: []
+user_id: shisheerskaushik

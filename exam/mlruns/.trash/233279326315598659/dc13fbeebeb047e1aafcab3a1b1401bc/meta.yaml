@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/shisheerskaushik/Code/IIT/Ml-ops-iitj/Mlops_assignment/exam/mlruns/233279326315598659/dc13fbeebeb047e1aafcab3a1b1401bc/artifacts
+deleted_time: 1731396404150
+end_time: 1731396101997
+entry_point_name: ''
+experiment_id: '233279326315598659'
+lifecycle_stage: deleted
+run_id: dc13fbeebeb047e1aafcab3a1b1401bc
+run_name: Random Forest
+run_uuid: dc13fbeebeb047e1aafcab3a1b1401bc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731396101771
+status: 3
+tags: []
+user_id: shisheerskaushik

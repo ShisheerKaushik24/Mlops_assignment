@@ -1,0 +1,18 @@
+version: '3'
+services:
+  ml_app:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - MLFLOW_TRACKING_URI=http://mlflow_server:5000
+    volumes:
+      - ./mlruns:/app/mlruns
+  mlflow_server:
+    image: mlflow/mlflow
+    environment:
+      - MLFLOW_TRACKING_URI=http://0.0.0.0:5000
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./mlruns:/mlflow/mlruns
